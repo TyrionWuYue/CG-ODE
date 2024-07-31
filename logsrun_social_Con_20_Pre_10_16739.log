@@ -1,0 +1,50 @@
+/Users/wuyue/Desktop/CG-ODE/run_models_social.py
+run_models_social.py
+Namespace(save='experiments/', load=None, dataset='social', datapath='data/', pred_length=10, condition_length=20, training_end_time=320, add_popularity=True, features_inc=True, split_interval=5, niters=50, lr=0.005, batch_size=8, random_seed=1991, dropout=0.2, l2=1e-05, optimizer='AdamW', clip=10, edge_lamda=0.5, z0_encoder='GTrans', rec_dims=64, ode_dims=30, rec_layers=1, gen_layers=1, augment_dim=0, solver='euler', alias='run', feature_out_index=[0, 1], output_dim=2, num_atoms=80)
+run
+Experiment 16739
+Epoch 0001 [Train seq (cond on sampled tp)] | Loss 137.110509 | MAPE 0.197733 | RMSE 0.105493 | Likelihood -135.609996 | KL fp 1.5005 | FP STD 0.1748|
+Epoch 0001 [Val seq (cond on sampled tp)] |  MAPE 0.026260 | RMSE 0.114619 |
+Best Val!
+Epoch 0001 [Test seq (cond on sampled tp)] | MAPE 0.186055 | RMSE 0.172566|
+Epoch 0001 [Test seq (cond on sampled tp)] | Best Test MAPE 0.186055|Best Test RMSE 0.172566|
+Experiment 16739
+Epoch 0002 [Train seq (cond on sampled tp)] | Loss 134.084182 | MAPE 0.174124 | RMSE 0.093300 | Likelihood -133.517400 | KL fp 0.5668 | FP STD 0.4834|
+Epoch 0002 [Val seq (cond on sampled tp)] |  MAPE 0.018345 | RMSE 0.091298 |
+Best Val!
+Epoch 0002 [Test seq (cond on sampled tp)] | MAPE 0.119992 | RMSE 0.135051|
+Epoch 0002 [Test seq (cond on sampled tp)] | Best Test MAPE 0.119992|Best Test RMSE 0.135051|
+Experiment 16739
+Epoch 0003 [Train seq (cond on sampled tp)] | Loss 133.928342 | MAPE 0.133468 | RMSE 0.084272 | Likelihood -132.919886 | KL fp 1.0085 | FP STD 0.4117|
+Epoch 0003 [Val seq (cond on sampled tp)] |  MAPE 0.018664 | RMSE 0.089755 |
+Epoch 0003 [Test seq (cond on sampled tp)] | MAPE 0.116757 | RMSE 0.133591|
+Epoch 0003 [Test seq (cond on sampled tp)] | Best Test MAPE 0.116757|Best Test RMSE 0.133591|
+Experiment 16739
+Epoch 0004 [Train seq (cond on sampled tp)] | Loss 127.690718 | MAPE 0.143592 | RMSE 0.084238 | Likelihood -126.678232 | KL fp 1.0125 | FP STD 0.3743|
+Epoch 0004 [Val seq (cond on sampled tp)] |  MAPE 0.017313 | RMSE 0.085315 |
+Best Val!
+Epoch 0004 [Test seq (cond on sampled tp)] | MAPE 0.118276 | RMSE 0.132904|
+Experiment 16739
+Epoch 0005 [Train seq (cond on sampled tp)] | Loss 146.103373 | MAPE 0.132707 | RMSE 0.084064 | Likelihood -144.701649 | KL fp 1.4017 | FP STD 0.2848|
+Epoch 0005 [Val seq (cond on sampled tp)] |  MAPE 0.019587 | RMSE 0.091709 |
+Epoch 0005 [Test seq (cond on sampled tp)] | MAPE 0.116263 | RMSE 0.138433|
+Epoch 0005 [Test seq (cond on sampled tp)] | Best Test MAPE 0.116263|Best Test RMSE 0.138433|
+Experiment 16739
+Epoch 0006 [Train seq (cond on sampled tp)] | Loss 131.469262 | MAPE 0.134170 | RMSE 0.085369 | Likelihood -130.199621 | KL fp 1.2696 | FP STD 0.2120|
+Epoch 0006 [Val seq (cond on sampled tp)] |  MAPE 0.018399 | RMSE 0.088836 |
+Epoch 0006 [Test seq (cond on sampled tp)] | MAPE 0.115021 | RMSE 0.127785|
+Epoch 0006 [Test seq (cond on sampled tp)] | Best Test MAPE 0.115021|Best Test RMSE 0.127785|
+Experiment 16739
+Epoch 0007 [Train seq (cond on sampled tp)] | Loss 148.705447 | MAPE 0.127021 | RMSE 0.082941 | Likelihood -147.291524 | KL fp 1.4139 | FP STD 0.2865|
+Epoch 0007 [Val seq (cond on sampled tp)] |  MAPE 0.019326 | RMSE 0.088971 |
+Epoch 0007 [Test seq (cond on sampled tp)] | MAPE 0.110692 | RMSE 0.127817|
+Epoch 0007 [Test seq (cond on sampled tp)] | Best Test MAPE 0.110692|Best Test RMSE 0.127817|
+Experiment 16739
+Epoch 0008 [Train seq (cond on sampled tp)] | Loss 120.481851 | MAPE 0.117678 | RMSE 0.082741 | Likelihood -119.211121 | KL fp 1.2707 | FP STD 0.3142|
+Epoch 0008 [Val seq (cond on sampled tp)] |  MAPE 0.018728 | RMSE 0.085463 |
+Epoch 0008 [Test seq (cond on sampled tp)] | MAPE 0.108576 | RMSE 0.124201|
+Epoch 0008 [Test seq (cond on sampled tp)] | Best Test MAPE 0.108576|Best Test RMSE 0.124201|
+Experiment 16739
+Epoch 0009 [Train seq (cond on sampled tp)] | Loss 124.294770 | MAPE 0.134368 | RMSE 0.083792 | Likelihood -122.930383 | KL fp 1.3644 | FP STD 0.2577|
+Epoch 0009 [Val seq (cond on sampled tp)] |  MAPE 0.018118 | RMSE 0.085891 |
+Epoch 0009 [Test seq (cond on sampled tp)] | MAPE 0.111545 | RMSE 0.129282|

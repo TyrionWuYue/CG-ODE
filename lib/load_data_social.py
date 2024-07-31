@@ -1,6 +1,7 @@
 import numpy as np
 import torch
-from torch_geometric.data import DataLoader,Data
+from torch_geometric.data import Data
+from torch_geometric.loader import DataLoader
 from torch.utils.data import DataLoader as Loader
 from tqdm import tqdm
 import math
