@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser('Coupled ODE')
 parser.add_argument('--save', type=str, default='experiments/', help="Path for save checkpoints")
 parser.add_argument('--load', type=str, default=None, help="name of ckpt. If None, run a new experiment.")
 parser.add_argument('--dataset', type=str, default='social')
-parser.add_argument('--datapath', type=str, default='data/', help="default data path")
+parser.add_argument('--datapath', type=str, default='/Users/wuyue/Desktop/CG-ODE/data/', help="default data path")
 parser.add_argument('--pred_length', type=int, default=10, help="Number of layers in recognition model ")
 parser.add_argument('--condition_length', type=int, default=20, help="Number days in encoder. 1 wk - 4 wk ")
 parser.add_argument('--training_end_time', type=int, default=320,
